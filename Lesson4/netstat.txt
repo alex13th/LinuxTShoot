@@ -1,0 +1,13 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 192.168.122.1:53        0.0.0.0:*               LISTEN      1540/dnsmasq        
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      967/systemd-resolve 
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      1266/cupsd          
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      1283/postgres       
+tcp        0      0 0.0.0.0:902             0.0.0.0:*               LISTEN      1983/vmware-authdla 
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      1292/mysqld         
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      1213/nginx: master  
+tcp6       0      0 ::1:631                 :::*                    LISTEN      1266/cupsd          
+tcp6       0      0 :::33060                :::*                    LISTEN      1292/mysqld         
+tcp6       0      0 :::902                  :::*                    LISTEN      1983/vmware-authdla 
+tcp6       0      0 :::80                   :::*                    LISTEN      1213/nginx: master  
